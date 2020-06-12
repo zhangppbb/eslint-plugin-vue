@@ -49,7 +49,9 @@ module.exports = {
           {
             pattern: `https://eslint.vuejs.org/rules/{{name}}.html`
           }
-        ]
+        ],
+
+        'eslint-plugin/fixer-return': 'off'
       }
     }
   ]
